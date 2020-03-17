@@ -19,9 +19,7 @@ class Patient
     end
   end
   def doctors
-    Doctor.all.select do |doctor|
-      doctor.patient == self
-    end
+    Doctor.all
   end
 
 end
