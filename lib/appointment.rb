@@ -15,6 +15,6 @@ class Appointment
   def patient
     Patient.all.select |patient|
       patient == @patient
-  end
+    end
   end
 end
