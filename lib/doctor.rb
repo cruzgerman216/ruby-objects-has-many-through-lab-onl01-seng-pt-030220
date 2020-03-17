@@ -10,7 +10,7 @@ class Doctor
     @@all
   end
 
-def appointments 
+  def appointments
 
-end
+  end
 end
